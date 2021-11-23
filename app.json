@@ -1,8 +1,8 @@
 {
   "expo": {
-    "name": "newWorldWatermark",
+    "name": "Watermark tracker",
     "slug": "newWorldWatermark",
-    "version": "1.0.0",
+    "version": "1.0.2",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
@@ -17,7 +17,8 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": false,
+      "bundleIdentifier": "com.niviso.watermarktracker"
     },
     "android": {
       "adaptiveIcon": {
